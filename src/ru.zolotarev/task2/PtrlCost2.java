@@ -25,7 +25,7 @@ public class PtrlCost2 {
                 int UsrAmount = in.nextInt();
                 System.out.println(UsrAmount + " liters of 92 is cost " + (cost92 * UsrAmount));
 
-                System.out.print("Thank you for using calculator.Type 'again' for additional calculating or press any other key for exiting "); //Cycle for additional counts
+                System.out.print("Thank you for using calculator.Type 'again' for additional calculating or press any other key for exit "); //Cycle for additional counts
                 String usrChoose2 = in.next();
                 if (usrChoose2.equalsIgnoreCase("again")) {
                     continue;
@@ -38,7 +38,7 @@ public class PtrlCost2 {
                 int UsrAmount = in.nextInt();
                 System.out.println(UsrAmount + " liters of 92 is cost " + (cost95 * UsrAmount));
 
-                System.out.println("Thank you for using calculator.Type 'again' for additional calculating or press any other key for exiting "); //Cycle for additional counts
+                System.out.println("Thank you for using calculator.Type 'again' for additional calculating or press any other key for exit "); //Cycle for additional counts
                 String usrChoose3 = in.next();
                 if (usrChoose3.equalsIgnoreCase("again")) {
                     continue;
@@ -51,7 +51,7 @@ public class PtrlCost2 {
                 int UsrAmount = in.nextInt();
                 System.out.println(UsrAmount + " liters of  is cost " + (costDF * UsrAmount));
 
-                System.out.println("Thank you for using calculator.Type 'again' for additional calculating or press any other key for exiting"); //Cycle for additional counts
+                System.out.println("Thank you for using calculator.Type 'again' for additional calculating or press any other key for exit"); //Cycle for additional counts
                 String usrChoose4 = in.next();
                 if (usrChoose4.equalsIgnoreCase("again")) {
                     continue;
@@ -60,7 +60,7 @@ public class PtrlCost2 {
                     break;
                 }
             } else {
-                System.out.println("Incorrect input. Type 'again' to try more times or press any other key to quit");    //Cycle for incorrect input
+                System.out.println("Incorrect input. Type 'again' to try more times or press any other key for exit");    //Cycle for incorrect input
                 String UsrChoose5 = in.next();
                 if (UsrChoose5.equalsIgnoreCase("again")) {
                     continue;
